@@ -1,0 +1,146 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2? family Poppins&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .info {
+            font-size: 1.2em;
+            color: red;
+            display: flex;
+            height: 26em;
+        }
+
+        .ls {
+            height: 23em;
+            text-align: center;
+            position: absolute;
+        }
+
+        .card {
+            width: 250px;
+            height: 250px;
+            margin: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(221, 216, 216);
+            flex-direction: column;
+            position: relative;
+            cursor: pointer;
+            transition: all .4s;
+            border-radius: 1em;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+        }
+
+        .card.p {
+            text-align: center;
+        }
+
+        .card.a {
+            font-size: 0.75em;
+            text-align: center;
+
+            margin-top: 0.5em;
+        }
+
+        .card:hover {
+            color: rgb(170, 180, 180);
+        }
+
+        .ms {
+            font-style: italic;
+            bottom: 2em;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="info">
+        <h1>TIMES</h1>
+    </nav>
+    <div class="ls">
+        <hr>
+        <h1>Latest Stories</h1>
+        <hr>
+    </div>
+
+    <div class="card">
+        <p>1</p>
+        <br>
+        <p>Saudi King Salman Hospitalized for Medical Tests...<br>
+            <a
+                href='https://www.aljazeera.com/news/2020/7/31/saudi-king-salman-leaves-hospital-after-gall-bladder-surgery'>view
+                more>></a>
+        </p>
+    </div>
+
+    <div class="card">
+        <p>2</p>
+        <br>
+        <p>Iran Executes Man Convicted of Spying on Soleimani...<br>
+            <a
+                href='https://www.militarytimes.com/news/your-military/2020/07/20/iran-executes-man-convicted-of-spying-on-soleimani-for-us-and-israel/'>view
+                more>></a>
+        </p>
+    </div>
+
+    <div class="card">
+        <p>3</p>
+        <br>
+        <p>Kim Jong Un Berates Officials Over Hospital Project...<br>
+            <a href='https://www.fox6now.com/news/kim-jong-un-berates-n-korean-officials-for-crucial-covid-19-lapse'>view
+                more>></a>
+        </p>
+
+    </div>
+
+    <div class="card">
+        <p>4</p>
+        <br>
+        <p>Boy, 12, Driving Stolen Truck Leads Police on Chase...<br>
+            <a href='https://abc7.com/police-chase-new-mexico-12-year-old/11023738/'>view
+                more>></a>
+        </p>
+    </div>
+
+    <div class="card">
+        <p>5</p>
+        <br>
+        <p>N.J. Federal Judge's Son Killed, Husband Wounded...<br>
+            <a
+                href='https://www.dailymail.co.uk/news/article-9802967/New-Jersey-federal-judge-says-FORGIVES-lawyer-killed-son.html'>view
+                more>></a>
+        </p>
+    </div>
+    <div class="ms">
+        <h1> Inside the Issue</h1>
+        <img src="/images/01.png" alt="">
+        <img src="/images/download.png" alt="">
+    </div>
+
+</body>
+
+</html>
