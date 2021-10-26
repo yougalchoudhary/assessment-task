@@ -1,2 +1,5 @@
-# news
-assesment 
+dependencies{
+'ejs',
+'express',
+'path'
+}
